@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Catatan</title>
+  </head>
+  <body>
+    <header>
+      <app-bar></app-bar>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="input-section">
+          <note-input></note-input>
+        </section>
+
+        <section class="notes-section">
+          <h2>Catatan Aktif</h2>
+          <note-list id="activeNotes"></note-list>
+
+          <h2>Arsip</h2>
+          <note-list id="archivedNotes"></note-list>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
